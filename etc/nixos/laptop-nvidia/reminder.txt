@@ -1,3 +1,0 @@
-uncomment rsilauncherlug to use it
-
-also use passwd dmoz
