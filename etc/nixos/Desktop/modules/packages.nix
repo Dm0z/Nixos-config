@@ -25,6 +25,7 @@
     rpcs3
     lutris
     heroic
+    okteta
     vesktop
     discord
     wineWowPackages.stable
@@ -32,6 +33,8 @@
     winetricks
     protontricks
     mesa-demos
+    clinfo
+    gamescope
     steamtinkerlaunch
     telegram-desktop
     mesa
@@ -47,7 +50,11 @@
     vlc
     fuse
     fuse3
+    distrobox
+    distrobox-tui
+    podman
     qemu
+    xclicker
     desktop-file-utils
     appimage-run
     libappindicator
@@ -66,6 +73,7 @@
     htop
     btop
     gparted
+    libvirt
     nmap
     cava
     cloudflare-warp
@@ -73,6 +81,8 @@
     xorg.xrdb
     gobject-introspection
     gtk3
+    solaar
+    logitech-udev-rules
     zenity
     kdePackages.kdialog
     dnsmasq
@@ -85,10 +95,16 @@
     obsidian
     sgdboop
     audacity
+    libreoffice
     home-manager
     lxqt.lxqt-policykit
     volumeicon
     uv
-    thunar-archive-plugin
+    cargo
+    cargo-tauri
+    rustc
+    rustup
+    gcc
+    cambalache
   ];
 }
