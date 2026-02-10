@@ -19,4 +19,25 @@
 
   programs.localsend.enable = true;
   programs.firefox.enable = true;
+
+  hardware.logitech.wireless.enable = true;
+
+  services.lsfg-vk = {
+    enable = true;
+    ui.enable = true;
+  };
+
+
+  hardware.graphics.extraPackages = with pkgs; [
+    rocmPackages.clr.icd
+  ];
+
+
+  services.xserver.videoDrivers = [ "amdgpu" ];
+
+  hardware.opengl.enable = true;
+
+  services.deluge.enable = true;
+
+  services.deluge.web.enable = true;
 }
