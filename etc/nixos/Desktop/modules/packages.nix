@@ -28,8 +28,8 @@
     okteta
     vesktop
     discord
-    wineWowPackages.stable
-    wineWowPackages.staging
+    wineWow64Packages.stable
+    wineWow64Packages.staging
     winetricks
     protontricks
     mesa-demos
@@ -78,7 +78,7 @@
     cava
     cloudflare-warp
     xsettingsd
-    xorg.xrdb
+    xrdb
     gobject-introspection
     gtk3
     solaar
@@ -106,5 +106,6 @@
     rustup
     gcc
     cambalache
+    thunar-archive-plugin
   ];
 }
