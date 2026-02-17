@@ -4,8 +4,8 @@
   programs.nix-ld.enable = true;
   programs.nix-ld.libraries = with pkgs; [
     libGL
-    xorg.libX11
-    xorg.libXi
+    libX11
+    libXi
     libxcomposite
     libxdamage
     libxext
