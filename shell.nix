@@ -19,3 +19,5 @@ pkgs.mkShell {
     openssl
   ];
 }
+
+/* rust shell that works pretty well */
