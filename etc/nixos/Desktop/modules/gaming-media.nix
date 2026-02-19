@@ -40,4 +40,6 @@
   services.deluge.enable = true;
 
   services.deluge.web.enable = true;
+
+  services.flatpak.enable = true;
 }
