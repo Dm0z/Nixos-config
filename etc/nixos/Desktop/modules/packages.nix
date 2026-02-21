@@ -98,7 +98,7 @@
     libreoffice
     home-manager
     lxqt.lxqt-policykit
-    volumeicon
+    r2modman
     uv
     cargo
     cargo-tauri
@@ -107,5 +107,6 @@
     gcc
     cambalache
     thunar-archive-plugin
+    hackneyed
   ];
 }
