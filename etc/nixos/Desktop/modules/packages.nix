@@ -55,6 +55,7 @@
     podman
     qemu
     xclicker
+    winboat
     desktop-file-utils
     appimage-run
     libappindicator
