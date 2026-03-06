@@ -56,6 +56,7 @@
     qemu
     xclicker
     winboat
+    wireshark
     desktop-file-utils
     appimage-run
     libappindicator
@@ -73,11 +74,15 @@
     busybox
     htop
     btop
+    bettercap
+    wirelesstools
     gparted
     libvirt
     nmap
+    arandr
     cava
     cloudflare-warp
+    zoom-us
     xsettingsd
     xrdb
     gobject-introspection
@@ -108,6 +113,9 @@
     gcc
     cambalache
     thunar-archive-plugin
+    picom
+    nitrogen
     hackneyed
+    networkmanagerapplet
   ];
 }
