@@ -2,18 +2,19 @@
 
 {
   programs.nix-ld.enable = true;
+
   programs.nix-ld.libraries = with pkgs; [
     libGL
-    libX11
-    libXi
-    libxcomposite
-    libxdamage
-    libxext
-    libxfixes
-    libxrender
-    libxrandr
-    libsm
-    libice
+    xorg.libX11
+    xorg.libXi
+    xorg.libXcomposite
+    xorg.libXdamage
+    xorg.libXext
+    xorg.libXfixes
+    xorg.libXrender
+    xorg.libXrandr
+    xorg.libSM
+    xorg.libICE
     alsa-lib
     pulseaudio
     glib
